@@ -17,7 +17,23 @@
 }
   .image1{
     width: 60%;
-  }  
+  }
+  .section{
+    align-items: center;
+
+  }
+
+  .image2{
+    width: 90%;
+  }
+
+  .section2{
+    align-items: center;
+  }
+  
+  .image3{
+    width: 95%;
+  }
 
 
 }
