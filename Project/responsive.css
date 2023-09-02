@@ -57,7 +57,19 @@
 /* Mobile devices */
 @media (max-width:575px) {
 
+  .head{
+    width: 105%;
+  }
+
   .header-section{
+    width: 100%;
+  }
+
+  .A{
+    margin-left: 0px;
+  }
+
+  .b1{
     width: 100%;
   }
 
@@ -139,8 +151,9 @@
 }
 
 .footer-section{
-  height: 720px;
-  width: 100%;
+  height: 860px;
+  width: 105%;
+  background-color: #00252E;
 }
 
 .foot{
