@@ -4,19 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Responsive Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
+
 <body>
     <header>
         <div class="header-section">
             <div><a href="#"><img class="logo" src="IMG_20230830_172812.jpg" alt="logo"></a>
             </div>
             <label for="check" class="checkbox">
-               <img class="menu-line" src="icons8-menu.svg" alt="">
+               <h2 class="menu-line">Home <i class="fas fa-caret-down"></i> 
+               <div class="dropdown_menu">
+                <ul>
+                    <li>About</li>
+                    <li>Portfolio</li>
+                    <li>Resume</li>
+                </ul>
+               </div>
+            </h2>
             <input type="checkbox" name="check" id="check">
             <ul>
                 <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
+                <li><a href="">About <i></i> </a></li>
                 <li><a href="">Portfolio</a></li>
                 <li><a href="">Resume</a></li>
                 <li><a href="">Contact</a></li>

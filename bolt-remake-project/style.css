@@ -1,0 +1,161 @@
+*{
+    text-decoration: non;
+}
+
+
+.header{
+    background-image: url(hero.webp);
+    height: 600px;
+}
+
+.section{
+    color: white;
+}
+
+.writeup{
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 4rem;
+}
+
+.content{
+    margin-top: 2.5rem;
+}
+
+.get-the-app{
+    border: 2px solid #33D085;
+    border-radius: 40px;
+    padding: 0.7rem 2rem;
+    background-color: #33D085;
+    margin-top: 2.5rem;
+}
+
+.get-the-app:hover{
+    background-color: #1D965C;
+}
+
+.content1{
+    border-radius: 30px;
+    padding: 0.3rem 0.5rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+
+.section1{
+    margin-top: 6rem;
+}
+
+.section-one{
+    border-style: none;
+}
+
+.buttonn{
+    border: #F0F0F0;
+    border-radius: 30px;
+    padding: 0.7rem 1.3rem;
+}
+
+.buttonn:hover{
+    background-color: #EBEDEF;
+}
+
+.section-content{
+    margin-top: 4rem;
+}
+
+
+.sectionnn{
+    border-radius: 10px;
+}
+
+.our{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.card-img{
+    width: 200px;
+}
+
+.card-img2{
+    width: 225px;
+}
+
+.card-img3{
+    width: 250px;
+}
+
+.card-img4{
+    width: 190px;
+}
+
+.cardss{
+    width: 33%;
+    
+}
+
+.card-title1{
+    border: 2px solid #EBEDEF;
+    background-color: #EBEDEF;
+}
+
+.cities{
+    font-size: 47px;
+    font-weight: 700;
+}
+
+.a-propos{
+    font-size: 47px;
+    font-weight: 70px;
+}
+
+.app{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.button-ride{
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+}
+
+.delivery-button{
+    border-radius: 40px;
+    background-color: white;
+    padding: 5px 15px;
+}
+
+.request{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.listing{
+    list-style: none;
+}
+
+#listing1:hover{
+    color: #33D085;
+}
+
+@media (max-width:556px){
+    .card-img{
+        width: 100px;
+    }
+    
+    .card-img2{
+        width: 125px;
+    }
+    
+    .card-img3{
+        width: 100px;
+    }
+    
+    .card-img4{
+        width: 90px;
+    }
+
+}
