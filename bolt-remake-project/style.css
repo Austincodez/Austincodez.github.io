@@ -94,8 +94,8 @@
     
 }
 
-.card-title1{
-    border: 2px solid #EBEDEF;
+.carrd{
+    border-radius: 10px;
     background-color: #EBEDEF;
 }
 
@@ -141,7 +141,7 @@
     color: #33D085;
 }
 
-@media (max-width:556px){
+/* @media (max-width:556px){
     .card-img{
         width: 100px;
     }
@@ -152,6 +152,16 @@
     
     .card-img3{
         width: 100px;
+        height: 130px;
+        
+    }
+
+    .cardd{
+        width: 190px;
+    }
+
+    .cards{
+        margin-bottom: 20px;
     }
     
     .card-img4{
@@ -159,3 +169,7 @@
     }
 
 }
+
+@media (max-width:440px) {
+    .cardd
+} */
